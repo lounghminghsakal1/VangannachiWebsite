@@ -17,6 +17,8 @@ import SpicesAndMasalas from './SpicesAndMasalas/spicesAndMasalas';
 import SweetsAndSavouries from './SweetsAndSavouries/sweetsAndSavouries';
 import DryGoods from './DryGoods/dryGoods';
 import CustomerReview from './CustomersReview/customerReview';
+import Footer from './Footer/footer';
+
 
 function App() {
   return (
@@ -38,6 +40,7 @@ function App() {
       <SweetsAndSavouries/>
       <DryGoods/>
       <CustomerReview/>
+      <Footer/>
     </>
   );
 }
