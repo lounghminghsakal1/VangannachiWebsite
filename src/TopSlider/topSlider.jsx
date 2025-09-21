@@ -5,6 +5,7 @@ import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
 import image from '../assets/topSlideImage.png';
 
+
 const TopSlider = () => {
   const slides = [
     {
@@ -25,7 +26,7 @@ const TopSlider = () => {
   ];
 
   return (
-    <div className="w-full h-screen border-4 mx-auto py-10">
+    <div className="w-full h-[500px] mx-auto">
       <Swiper
         modules={[Navigation]}
         navigation
@@ -33,16 +34,18 @@ const TopSlider = () => {
         slidesPerView={1}
         loop={true}
         className="rounded-xl shadow-lg"
+
+        
       >
         {slides.map((slide) => (
           <SwiperSlide key={slide.id}>
-            <div className="flex flex-col items-center h-screen">
+            <div className="flex flex-col items-center">
               <img
                 src={slide.img}
                 alt={slide.title}
-                className="w-64 h-64 object-cover rounded-full border-4 border-green-500"
+                className="rounded h-[450px]"
               />
-              <p className="mt-4 text-lg font-semibold">{slide.title}</p>
+              <p className="my-4 text-lg font-semibold text-green-500">{slide.title}</p>
             </div>
           </SwiperSlide>
         ))}

@@ -88,7 +88,7 @@ const CustomerReview = function () {
         and duties taxes included.</p>
                     </div>
             </div>
-            <br className='border-40'/>
+            <hr className='border-t my-8 border-gray-300'/>
         </div>
     );
 
