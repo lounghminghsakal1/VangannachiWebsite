@@ -18,7 +18,7 @@ import SweetsAndSavouries from './SweetsAndSavouries/sweetsAndSavouries';
 import DryGoods from './DryGoods/dryGoods';
 import CustomerReview from './CustomersReview/customerReview';
 import Footer from './Footer/footer';
-
+import BottomNavBar from './mobileBottomNavBar/bottomNavBarMobile';
 
 function App() {
   return (
@@ -41,6 +41,7 @@ function App() {
       <DryGoods/>
       <CustomerReview/>
       <Footer/>
+      <BottomNavBar/>
     </>
   );
 }
