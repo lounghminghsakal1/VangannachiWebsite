@@ -1,24 +1,24 @@
 
 import './App.css';
-import Navbar from './Navbar/navbar';
-import TopSlider from './TopSlider/topSlider';
-import OrganicItems from './OrganicCategories/organicCategories';
-import ShopByConcern from './ShopByConcern/shopByConcern';
-import ProductsSlider from './ProductsSlider/productsSlider';
-import BestSelling from './BestSellingSection/bestSelling';
-import HairOil from './HairOilSection/hairOil';
-import SkinCare from './SkinCare/skinCare';
-import HealthAndWealth from './HealthAndWellness/healthAndWeatlth';
-import BabyAndMother from './BabyAndMotherCare/babyAndMotherCare';
-import PureHoneyProducts from './PureHoney/pureHoneyProducts';
-import PicklesAndThoku from './PickelesAndThokku/pickelsAndThokku';
-import OilAndNaturalSweetners from './OilAndNaturalSweet/oilAndNaturalSweetners';
-import SpicesAndMasalas from './SpicesAndMasalas/spicesAndMasalas';
-import SweetsAndSavouries from './SweetsAndSavouries/sweetsAndSavouries';
-import DryGoods from './DryGoods/dryGoods';
-import CustomerReview from './CustomersReview/customerReview';
-import Footer from './Footer/footer';
-import BottomNavBar from './mobileBottomNavBar/bottomNavBarMobile';
+import Navbar from './components/Navbar/navbar';
+import TopSlider from './components/TopSlider/topSlider';
+import OrganicItems from './components/OrganicCategories/organicCategories';
+import ShopByConcern from './components/ShopByConcern/shopByConcern';
+import ProductsSlider from './components/ProductsSlider/productsSlider';
+import BestSelling from './components/BestSellingSection/bestSelling';
+import HairOil from './components/products_components/HairOilSection/hairOil';
+import SkinCare from './components/products_components/SkinCare/skinCare';
+import HealthAndWealth from './components/products_components/HealthAndWellness/healthAndWeatlth';
+import BabyAndMother from './components/products_components/BabyAndMotherCare/babyAndMotherCare';
+import PureHoneyProducts from './components/products_components/PureHoney/pureHoneyProducts';
+import PicklesAndThoku from './components/products_components/PickelesAndThokku/pickelsAndThokku';
+import OilAndNaturalSweetners from './components/products_components/OilAndNaturalSweet/oilAndNaturalSweetners';
+import SpicesAndMasalas from './components/products_components/SpicesAndMasalas/spicesAndMasalas';
+import SweetsAndSavouries from './components/products_components/SweetsAndSavouries/sweetsAndSavouries';
+import DryGoods from './components/products_components/DryGoods/dryGoods';
+import CustomerReview from './components/CustomersReview/customerReview';
+import Footer from './components/Footer/footer';
+import BottomNavBar from './components/mobileBottomNavBar/bottomNavBarMobile';
 
 function App() {
   return (
