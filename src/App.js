@@ -19,6 +19,7 @@ import DryGoods from './components/products_components/DryGoods/dryGoods';
 import CustomerReview from './components/CustomersReview/customerReview';
 import Footer from './components/Footer/footer';
 import BottomNavBar from './components/mobileBottomNavBar/bottomNavBarMobile';
+import FloatingComps from './components/floating_comps/FloatingComps';
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
       <CustomerReview/>
       <Footer/>
       <BottomNavBar/>
+      <FloatingComps/>
     </>
   );
 }
