@@ -14,7 +14,7 @@ const Navbar = function () {
                 </div>
             </div>
             <nav className="bg-white flex justify-around gap-4 p-2 sticky top-0 z-50">
-                <div className='flex justify-center items-center sm:hidden' onClick={() => setIsOpen(true)}>
+                <div className='flex justify-center items-center cursor-pointer sm:hidden' onClick={() => setIsOpen(true)}>
                     <p><img src={hamBurgerIcon} alt="" className='w-8'/></p>
                 </div>
 

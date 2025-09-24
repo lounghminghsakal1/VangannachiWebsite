@@ -43,7 +43,6 @@ function App() {
       <CustomerReview/>
       <Footer/>
       <BottomNavBar/>
-      <FloatingComps/>
     </>
   );
 }

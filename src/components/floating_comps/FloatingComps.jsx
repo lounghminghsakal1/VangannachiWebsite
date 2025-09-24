@@ -2,7 +2,7 @@ import watsappIcon from '../../assets/whatsappLogo.png';
 
 const FloatingComps = function () {
     return (
-        <div className='flex flex-col absolute b-0 r-0'>
+        <div className='flex flex-col w-36 relative b-0 r-0 border-4'>
             <div className='flex'>
                 <button className='bg-white p-2 shadow-md rounded full'>Chat with us</button>
                 <p>✖️</p>
