@@ -23,7 +23,7 @@ const TopSlider = () => {
       id: 2,
       img: image,
       title: "Reduces Premature Grey Hair",
-      buttonText: "Buy Now"
+      buttonText: "Buy later"
     },
     {
       id: 3,
